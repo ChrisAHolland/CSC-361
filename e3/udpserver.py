@@ -1,6 +1,5 @@
 '''
 Chris Holland
-V00876844
 '''
 # UDP server from handout
 
