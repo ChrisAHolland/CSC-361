@@ -1,6 +1,5 @@
 '''
 Chris Holland
-V00876844
 '''
 # TCP client from handout
 
