@@ -1,6 +1,5 @@
 '''
 Chris Holland
-V00876844
 csc 361, lab 1
 client.py
 '''
