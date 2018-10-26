@@ -15,7 +15,7 @@ except socket.error, msg:
 
 print 'Socket created'
 
-host = 'www.google.com'
+host = ''
 port = 5000
 
 try:
