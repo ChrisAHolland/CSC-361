@@ -1,6 +1,5 @@
 '''
 Chris Holland
-V00876844
 CSC 361, Lab 1
 server.py
 '''

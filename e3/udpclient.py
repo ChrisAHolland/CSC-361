@@ -1,6 +1,5 @@
 '''
 Chris Holland
-V00876844
 '''
 # UDP client taken from handout
 
@@ -9,7 +8,7 @@ import sys
 
 try:
 	s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-except socet.error:
+except socket.error:
 	print 'Failed to create socket'
 	sys.exit()
 
