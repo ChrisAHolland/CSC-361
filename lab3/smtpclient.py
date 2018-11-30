@@ -1,6 +1,6 @@
 '''
 Chris Holland
-V00876844
+smtpclient.py
 '''
 
 from socket import *
