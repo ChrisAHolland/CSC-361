@@ -30,9 +30,10 @@ while 1:
 
 		for i in range(0, len(outputdata)):
 			connectionSocket.send(outputdata[i].encode())
+		
 		connectionSocket.send("\r\n".encode())
- 
-		connectionSocket.close()
+ 		connectionSocket.close()
+		
 	except IOError:
 		connectionSocket.send('HTTP/1.1 404 Not Found\r\n\r\n')
 		connectionSocket.send('<html><head></head><body><h1>404 Not Found</h1></body></html>\r\n')
